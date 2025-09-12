@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Henor Kelmendi",
+		role: "Co-founder",
+		image: "/generated/image-a-young-icelandic-entrepreneur-dressed-i.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"At eighteen, we saw startups drowning in generic templates while agencies treated them like checkbox projects. We knew there had to be a better way—thoughtful design that grows with your vision, not against it."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
@@ -45,7 +45,7 @@ A minimalist teaser for the about page.
 					/>
 					<div>
 						<div class="text-callout">{teamMember.name}</div>
-						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
+						<div class="text-caption text-muted-foreground">{teamMember.role}</div>
 					</div>
 					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
 				</div>
