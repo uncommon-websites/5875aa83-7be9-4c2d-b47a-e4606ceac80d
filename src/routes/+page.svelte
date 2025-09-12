@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Transform brand interfaces into modern, thoughtful experiences"
+	subtitle="We help startup founders create polished, user-focused products that attract users and investors through deliberate collaboration and systematic design refinement."
+	imageSrc="/generated/image-a-group-of-young-startup-founders-collab.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by design-forward teams"
+	logoUrls={[
+		'https://cdn.brandfetch.io/framer.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/linear.app/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
